@@ -3,22 +3,24 @@
   "runId": "oss-contrib-agent-20260811-d235ab2d",
   "feature": "001-oss-contrib-agent-personalization",
   "contractHash": "d235ab2df68de3f679d68f4363e8dc24b7c649228e09bd734a61bf0389cfaefc",
-  "nodes": {"N1": "pass", "N2": "pass", "N3": "pass", "N4": "pass", "N5": "pass", "N6": "pass", "N7": "pass", "N8": "delivered-pending-ci"},
+  "nodes": {"N1": "pass", "N2": "pass", "N3": "pass", "N4": "pass", "N5": "pass", "N6": "pass", "N7": "pass", "N8": "delivered-draft-pr-ci-pass"},
   "repository": {
     "name": "Tiancheng-Xu/oss-contrib-agent",
-    "branch": "tc/oss-contrib-agent-personalization-d235ab2d",
-    "localCommit": "e84d469dd5642c4951607d02fd0dff6a710f4716",
-    "remoteCommit": "f8b907858d4a4c7213f2efdee1e07c4425947f47",
-    "deliveryPath": "GitHub App Git objects after HTTPS push connectivity failure"
+    "branch": "tc/oss-contrib-agent-personalization-git-d235ab2d",
+    "localCommit": "b7deba82fa1bc464fb76b11c8ac9198996ee6227",
+    "remoteCommit": "21e4a93738dd282ca82f75e4664507c96a265a5b",
+    "tree": "ad02d9f09fc8388e18acac905e9ce5d201d91b5e",
+    "deliveryPath": "GitHub Git Data API with explicit audited owner identity after Git HTTPS transport stalled"
   },
   "verification": {
     "focusedTests": "16 passed",
     "coreRegression": "546 passed, 27 skipped",
     "ruff": "pass",
     "repositoryPolicy": "local-pass",
-    "remoteChecks": "pending"
+    "remoteChecks": "pass: repository policy, Pytest, Pylint, docs deploy, modified Markdown links"
   },
-  "pullRequest": "https://github.com/Tiancheng-Xu/oss-contrib-agent/pull/1",
+  "pullRequest": "https://github.com/Tiancheng-Xu/oss-contrib-agent/pull/2",
+  "supersededPullRequest": "https://github.com/Tiancheng-Xu/oss-contrib-agent/pull/1",
   "production": "manual-pending",
   "branchCleanup": "retained for review feedback"
 }
