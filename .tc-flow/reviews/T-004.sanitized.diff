@@ -1,0 +1,5 @@
+Task: T-004 CLI, packaging, documentation, policy caller
+Files: cli.py 31a187ca; test_cli.py 725b6167; pyproject.toml 8c0eb008; oss_contrib.md d7a2677c; repository-policy.yml fe1e9342
+PII redacted: 0
+Credential values: 0
+Review scope: CLI options, JSON output, installed entry point, usage contract, byte-for-byte central policy caller

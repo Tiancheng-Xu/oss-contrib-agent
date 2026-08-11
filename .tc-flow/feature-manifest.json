@@ -1,0 +1,16 @@
+{
+  "runId": "oss-contrib-agent-20260811-d235ab2d",
+  "feature": "001-oss-contrib-agent-personalization",
+  "setupPaths": [".gitignore"],
+  "featurePaths": [
+    ".github/workflows/repository-policy.yml",
+    ".tc-flow/**",
+    "docs/superpowers/**",
+    "docs/usage/oss_contrib.md",
+    "pyproject.toml",
+    "specs/001-oss-contrib-agent-personalization/**",
+    "src/minisweagent/contrib/**",
+    "tests/contrib/**"
+  ],
+  "unexpectedPaths": []
+}
