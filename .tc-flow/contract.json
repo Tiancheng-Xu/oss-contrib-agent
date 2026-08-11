@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "runId": "oss-contrib-agent-20260811-d235ab2d",
+  "contractHash": "d235ab2df68de3f679d68f4363e8dc24b7c649228e09bd734a61bf0389cfaefc",
+  "goal": "Add safe repository discovery, TC Flow evidence gates, deduplication, and Draft PR publication to the personal fork.",
+  "nonGoals": [
+    "auto merge",
+    "stored credentials",
+    "internal scheduling",
+    "bulk or low-value PR creation",
+    "upstream publication of the personal orchestration layer"
+  ],
+  "allowedPaths": [
+    ".github/workflows/verify-repository-policy.yml",
+    ".tc-flow/**",
+    "docs/usage/oss_contrib.md",
+    "docs/superpowers/**",
+    "pyproject.toml",
+    "specs/001-oss-contrib-agent-personalization/**",
+    "src/minisweagent/contrib/**",
+    "tests/contrib/**"
+  ],
+  "allowedTools": ["apply_patch", "git", "gh", "python", "pytest", "ruff", "repository-policy.mjs"],
+  "network": ["github.com", "api.github.com"],
+  "externalWrites": ["push feature branch", "create Draft PR in Tiancheng-Xu/oss-contrib-agent"],
+  "acceptance": [
+    "discovery is read-only and deterministic",
+    "credentials are neither read nor stored",
+    "all TC Flow gates pass before publication",
+    "duplicate issue contributions are rejected",
+    "live publication always creates a Draft PR"
+  ]
+}

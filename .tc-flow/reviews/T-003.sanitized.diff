@@ -1,0 +1,5 @@
+Task: T-003 guarded Draft PR publication
+Files: publisher.py 80228b1e; test_publisher.py c8b07de7
+PII redacted: 0
+Credential values: 0
+Review scope: dry-run default, explicit publish, duplicate issue rejection, draft-only command, body size/symlink/issue/credential checks

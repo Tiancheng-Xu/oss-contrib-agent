@@ -1,0 +1,24 @@
+{
+  "version": "tc-flow RunResult v1",
+  "runId": "oss-contrib-agent-20260811-d235ab2d",
+  "feature": "001-oss-contrib-agent-personalization",
+  "contractHash": "d235ab2df68de3f679d68f4363e8dc24b7c649228e09bd734a61bf0389cfaefc",
+  "nodes": {"N1": "pass", "N2": "pass", "N3": "pass", "N4": "pass", "N5": "pass", "N6": "pass", "N7": "pass", "N8": "delivered-pending-ci"},
+  "repository": {
+    "name": "Tiancheng-Xu/oss-contrib-agent",
+    "branch": "tc/oss-contrib-agent-personalization-d235ab2d",
+    "localCommit": "e84d469dd5642c4951607d02fd0dff6a710f4716",
+    "remoteCommit": "f8b907858d4a4c7213f2efdee1e07c4425947f47",
+    "deliveryPath": "GitHub App Git objects after HTTPS push connectivity failure"
+  },
+  "verification": {
+    "focusedTests": "16 passed",
+    "coreRegression": "546 passed, 27 skipped",
+    "ruff": "pass",
+    "repositoryPolicy": "local-pass",
+    "remoteChecks": "pending"
+  },
+  "pullRequest": "https://github.com/Tiancheng-Xu/oss-contrib-agent/pull/1",
+  "production": "manual-pending",
+  "branchCleanup": "retained for review feedback"
+}

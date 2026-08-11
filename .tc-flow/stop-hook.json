@@ -1,0 +1,15 @@
+{
+  "runId": "oss-contrib-agent-20260811-d235ab2d",
+  "contractHash": "d235ab2df68de3f679d68f4363e8dc24b7c649228e09bd734a61bf0389cfaefc",
+  "verdict": "ALLOW",
+  "workingTree": "matched",
+  "memoryReviewed": true,
+  "repositoryPolicy": "pass",
+  "remoteCaller": "present-canonical",
+  "p0Issues": 0,
+  "unstagedTreeDrift": false,
+  "notes": [
+    "Pre-commit remote environment initialization was unavailable; equivalent offline checks passed.",
+    "Container-only tests remain delegated to the existing remote CI workflow."
+  ]
+}
