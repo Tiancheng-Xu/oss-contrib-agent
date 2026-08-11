@@ -1,0 +1,23 @@
+{
+  "runId": "oss-contrib-agent-20260811-d235ab2d",
+  "feature": "001-oss-contrib-agent-personalization",
+  "contractHash": "d235ab2df68de3f679d68f4363e8dc24b7c649228e09bd734a61bf0389cfaefc",
+  "verdict": "pass",
+  "acceptanceCriteria": {"passed": 7, "total": 7},
+  "focusedTests": {"status": "pass", "summary": "16 passed"},
+  "coreRegression": {"status": "pass", "summary": "546 passed, 27 skipped"},
+  "lint": {"status": "pass", "summary": "Ruff check and format passed"},
+  "preCommit": {
+    "status": "manual-equivalent-pass",
+    "summary": "Hook environment initialization could not reach github.com; local conflict, whitespace, large-file, private-key, Ruff, and central policy checks passed."
+  },
+  "externalSmoke": {
+    "status": "blocked-external",
+    "summary": "Authenticated repository search succeeded; GitHub then returned a secondary rate limit on issue search, so the run stopped without retry."
+  },
+  "containerSuite": {
+    "status": "not-applicable-local",
+    "summary": "Local Docker startup exits 125; remote CI owns container, Singularity, and SWE-bench coverage."
+  },
+  "retries": 0
+}

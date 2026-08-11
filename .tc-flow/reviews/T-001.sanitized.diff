@@ -1,0 +1,5 @@
+Task: T-001 read-only GitHub opportunity discovery
+Files: models.py 0dc1facc; discovery.py 477206e8; github.py 3097c3a5; test_discovery.py b925a3d9; test_github_client.py 594cce6a
+PII redacted: 0
+Credential values: 0
+Review scope: candidate models, API argument arrays, filtering, ranking, prior-PR deduplication, rate-limit stop behavior

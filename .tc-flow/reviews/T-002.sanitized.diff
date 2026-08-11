@@ -1,0 +1,5 @@
+Task: T-002 TC Flow evidence validation
+Files: evidence.py 772ef385; test_evidence.py 6f1ed465
+PII redacted: 0
+Credential values: 0
+Review scope: strict schema, 64-character contract commitment, target match, gate statuses, tests, blockers
