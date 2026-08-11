@@ -12,3 +12,4 @@
 {"event":"N6-feature-qa","verdict":"pass","acceptance":"7/7","focusedTests":"16 passed","coreRegression":"546 passed, 27 skipped"}
 {"event":"N7-memory-written","feature":"001-oss-contrib-agent-personalization","contractHash":"d235ab2d"}
 {"event":"N7-stop-hook","verdict":"ALLOW","workingTree":"matched","repositoryPolicy":"pass","remoteCaller":"present-canonical"}
+{"event":"N8-delivery","repository":"Tiancheng-Xu/oss-contrib-agent","branch":"tc/oss-contrib-agent-personalization-d235ab2d","remoteCommit":"f8b907858d4a4c7213f2efdee1e07c4425947f47","pullRequest":"https://github.com/Tiancheng-Xu/oss-contrib-agent/pull/1","draft":true,"remoteChecks":"pending"}
